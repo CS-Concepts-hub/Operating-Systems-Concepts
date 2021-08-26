@@ -31,32 +31,6 @@ weight: 0
 		<p class="center">
 			[<a href="#lectures">Lectures</a>]&nbsp;&nbsp;&nbsp;[<a href="#notes">Lecture Notes</a>]&nbsp;&nbsp;&nbsp;[<a href="#exercises">Exercises</a>]
 			</p>
-	
-		<table class="table">
-			<tr>
-				<th>Sr</th>
-				<th>Topic</th>
-				<th>Links</th>
-			</tr>
-			{% for lecture in site.data.all.lectures %}
-			<tr>
-				<td> {{site.data.all.sno[forloop.index]}} </td>
-				<td> {{lecture.topic | default: ""}} </td>
-				<td>
-					{% if lecture.video %} 
-					<a href="{{lecture.video}}" target="youtube">Video</a>
-					{% endif %} 
-					{% if lecture.notes %} 
-					 | <a href="files/{{lecture.notes}}">Notes</a>
-					{% endif %} 
-					{% if lecture.exercises %} 
-					 | <a href="files/{{lecture.exercises}}">Exercise</a>
-					{% endif %} 
-					
-				</td>
-			</tr>
-			{% endfor %}
-		</table>
 		<h2 class="title" id="lectures">Lecture Videos</h2>
 		<ol>
 			{% for lecture in site.data.all.lectures %}
