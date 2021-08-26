@@ -51,7 +51,7 @@ lectures:
     notes: Segmentation-Multilevel-Paging.pdf
     exercises: Exercises-Segmentation-Multilevel-Paging.pdf
     type: 'hw'
-  - topic: Virtual Memory - Demand paging. Virtual to Physical Address Tanslation
+  - topic: Virtual Memory - Demand paging. Virtual to Physical Address Translation
     video: https://www.youtube.com/watch?v=UVapo4ad9nY
     notes: Virtual-Memory.pdf
     exercises:
