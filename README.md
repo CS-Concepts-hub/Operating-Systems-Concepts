@@ -1,1 +1,1 @@
-Operating Systems by Dr Afzal Bhatti
+Operating System Concepts by M. Afzal Bhatti
