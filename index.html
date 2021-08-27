@@ -6,37 +6,75 @@ weight: 0
 
 <section class="main-container page-head">
 	<div class="main">
-		<h1 class="head-title"> CS-Concepts-Hub</h1>
+		<h1 class="head-title">Operating System Concepts</h1>
 		<p class="head-subtitle"><i>M. Afzal Bhatti</i></p>
 	</div>
 </section>
 <section class="main-container text">
 	<div class="main">
+		<h2 class="title">Objectives</h2>
 		<p>
-			A repository of Computer Science Courses, Topical Lectures and Lecture Notes of BS degree level. Course lectures and Topical Lectures are in the form of video made of power point lecture presentation (in English) with lecture explaintation in Urdu/English. Lecture Notes (in English) are abriged version of relevant topics from course text books.
+			The aim of lecture topics of this course is to introduce basic concepts in operating systems, and how different choices in Operating System design and implementation have effects on applications, and user environments.
 		</p>
 		<hr>
 		<p class="center">
-			[<a href="#courses">Courses</a>]&nbsp;&nbsp;[<a href="#lectures">Topical Lectures</a>]&nbsp;&nbsp;[<a href="#notes">Lecture Notes</a>]
+			[<a href="#lectures">Lectures</a>]&nbsp;&nbsp;[<a href="#notes">Lecture Notes</a>]&nbsp;&nbsp;[<a href="#exercises">Exercises</a>]
 		<hr>
-		<h2 class="title" id="courses">Courses</h2>
+		<p>
+			BS level course: topical lectures (video Urdu/Englsih), exercises(English) and lecture notes(Englih). Better to first read notes of a lecture and then view lecture.
+		</p>
+		<hr>
+		<p><span style="background-color: #ffd700">Have already taken operating system course ? </span> </p>
+		<p>&nbsp;&nbsp;You may like to refresh concepts of a specific topic of operating system course:</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Try to solve questions in Exercises of a specific lecture topic, if done easily, Good skip lecture topic.</p>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;otherwise read lecture notes, or view lecture of the topic.</p>
+		</p>
+		<hr>
+		<h2 class="title" id="lectures">Lectures</h2>
 		<ol>
-			<li><a href="https://cs-concepts-hub.github.io/Operating-Systems-Concepts/">Operating Systems Concepts</a></li>
-			<li><a href="#">Interaction Design</a></li>
+			{% for lecture in site.data.all.lectures %}
+			{% if lecture.video %} 
+			<li><a href="{{lecture.video}}" target="youtube">{{lecture.topic}}</a></li>
+			{% endif %} 
+			{% endfor %}
 		</ol>
 		<hr>
-		<h2 class="title" id="lectures">Topical Lectures</h2>
-		<!-- <ol>
-			<li><a href="#"></a></li>
-			<li><a href="#"></a></li>
-		</ol> -->
-		<hr>
 		<h2 class="title" id="notes">Lecture Notes</h2>
+		<ol>
+			{% for lecture in site.data.all.lectures %}
+			{% if lecture.notes %} 
+			<li><a href="files/{{lecture.notes}}">{{lecture.topic | default: ""}}</a></li>
+			{% endif %} 
+			{% endfor %}
+		</ol>
+		<hr>
+		<h2 class="title" id="exercises">Exercises</h2>
 
-		<!-- <ol>
-			<li><a href="#"></a></li>
-			<li><a href="#"></a></li>
-		</ol> -->
+		<ol>
+			{% for lecture in site.data.all.lectures %}
+			{% if lecture.exercises %} 
+			<li><a href="files/{{lecture.exercises}}">{{lecture.topic | default: ""}}</a></li>
+			{% endif %} 
+			{% endfor %}
+		</ol>
 
+
+
+
+		<hr>
+		<h2 class="title">Recommended Readings</h2>
+		<ul>
+			<li>A. Silberschatz et al, <i>Operating System Concepts</i>,  9/e, Wiley, 2013</li>
+			<li>W. Stallings, <i>Operating Systems:  Internal and Design Principles</i>, 7/e, Prentice Hall, 2012</li>
+		</ul>
+
+		<hr>
+		<h2 class="title">Acknowledgements</h2>
+		
+		<p>While teaching operating systems course at Quaid-i-Azam University, I enhanced my understating of operating systems from two main text books used for the course '<i>Operating System Concepts</i>' by A. Silberschatz et al' and  '<i>Operating Systems: Internal and Design Principles</i>' by W. Stallings. Lecture notes are also prepared from these books listed as recommended readings for this course.</p>
+
+		<p>Exercises for lecture topics are mostly from course quizzes and exam papers at Quaid-i-Azam University, I am grateful to all students who solved those questions in exams and during lectures ask questions to clarify concepts of different topics.</p>
+
+		<p>For lecture presentations some images and animation ideas are taken from OS lecture presentations available at web.</p>
 	</div>
 </section>
