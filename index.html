@@ -13,7 +13,7 @@ weight: 0
 <section class="main-container text">
 	<div class="main">
 		<hr>
-		<h2 class="title">Objectives</h2>
+		<h3 class="title">Objectives</h3>
 		<p>
 			The aim of lecture topics of this course is to introduce basic concepts in operating systems, and how different choices in Operating System design and implementation have effects on applications, and user environments.
 		</p>
@@ -31,7 +31,7 @@ weight: 0
 		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;otherwise read lecture notes, or view lecture of the topic.</p>
 		</p>
 		<hr>
-		<h2 class="title" id="lectures">Lectures</h2>
+		<h3 class="title" id="lectures">Lectures</h3>
 		<ol>
 			{% for lecture in site.data.all.lectures %}
 			{% if lecture.video %} 
@@ -40,7 +40,7 @@ weight: 0
 			{% endfor %}
 		</ol>
 		<hr>
-		<h2 class="title" id="notes">Lecture Notes</h2>
+		<h3 class="title" id="notes">Lecture Notes</h3>
 		<ol>
 			{% for lecture in site.data.all.lectures %}
 			{% if lecture.notes %} 
@@ -49,7 +49,7 @@ weight: 0
 			{% endfor %}
 		</ol>
 		<hr>
-		<h2 class="title" id="exercises">Exercises</h2>
+		<h3 class="title" id="exercises">Exercises</h3>
 
 		<ol>
 			{% for lecture in site.data.all.lectures %}
@@ -63,19 +63,19 @@ weight: 0
 
 
 		<hr>
-		<h2 class="title">Recommended Readings</h2>
+		<h3 class="title">Recommended Readings</h3>
 		<ul>
 			<li>A. Silberschatz et al, <i>Operating System Concepts</i>,  9/e, Wiley, 2013</li>
 			<li>W. Stallings, <i>Operating Systems:  Internal and Design Principles</i>, 7/e, Prentice Hall, 2012</li>
 		</ul>
 
 		<hr>
-		<h2 class="title">Acknowledgements</h2>
+		<h3 class="title">Acknowledgements</h3>
 		
 		<p>While teaching operating systems course at Quaid-i-Azam University, I enhanced my understating of operating systems from two main text books used for the course '<i>Operating System Concepts</i>' by A. Silberschatz et al' and  '<i>Operating Systems: Internal and Design Principles</i>' by W. Stallings. Lecture notes are also prepared from these books listed as recommended readings for this course.</p>
 
-		<p>Exercises for lecture topics are mostly from course quizzes and exam papers at Quaid-i-Azam University, I am grateful to all students who solved those questions in exams and during lectures ask questions to clarify concepts of different topics.</p>
+		<p>Exercises for lecture topics are mostly from course quizzes and exam papers at Quaid-i-Azam University, I am grateful to all students who solved those questions in exams and during lectures ask questions to clarify concepts of different topics.<br>
+		For lecture presentations some images and animation ideas are taken from OS lecture presentations available at web.</p>
 
-		<p>For lecture presentations some images and animation ideas are taken from OS lecture presentations available at web.</p>
-	</div>
+			</div>
 </section>
