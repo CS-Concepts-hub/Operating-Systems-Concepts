@@ -33,7 +33,7 @@ lectures:
     type: ''
   - topic: Process Models for operating system types
     video: https://www.youtube.com/watch?v=_EEiHdq4jvk
-    notes: 
+    notes: OS-Types-and-Process-Model
     exercises: Exercises-OS-Types-Process-Model.pdf
     type: 'hw'
   - topic: Memory Management - Fixed/Variable partitions Allocation
