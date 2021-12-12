@@ -36,6 +36,10 @@ lectures:
     notes: OS-Types-and-Process-Model.pdf
     exercises: Exercises-OS-Types-Process-Model.pdf
     type: 'hw'
+    topic: Memory Management Basics  - Memory Addressing - Logical to Physical Address Transaltion
+    video: https://youtu.be/-9B1ATUQpyQ
+    notes: Memory-Management-Static-Dynamic-Partitions.pdf
+    exercises: 
   - topic: Memory Management - Fixed/Variable partitions Allocation
     video: https://www.youtube.com/watch?v=cl8h_BnE1sQ
     notes: Memory-Management-Static-Dynamic-Partitions.pdf
