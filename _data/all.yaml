@@ -31,116 +31,116 @@ lectures:
     notes: OS-Overview.pdf
     exercises:
     type: ''
-  - topic: <u>Process Models for operating system types</u>
+  - topic: Process Models for operating system types
     video: https://www.youtube.com/watch?v=_EEiHdq4jvk
     notes: OS-Types-and-Process-Model.pdf
     exercises: Exercises-OS-Types-Process-Model.pdf
     type: 'hw'
-    topic: <u>Memory Management Basics  - Memory Addressing - Logical to Physical Address Transaltion</u>
+    topic: Memory Management Basics  - Memory Addressing - Logical to Physical Address Transaltion
     video: https://youtu.be/-9B1ATUQpyQ
     notes: Memory-Basics-Addressing.pdf
     exercises: 
-  - topic: <u>Memory Management - Fixed/Variable partitions Allocation</u>
+  - topic: Memory Management - Fixed/Variable partitions Allocation
     video: https://www.youtube.com/watch?v=cl8h_BnE1sQ
     notes: Memory-Management-Static-Dynamic-Partitions.pdf
     exercises: Exercises-Memory-Management-Static-Dynamic-Partitions.pdf
     type: 'hw'
-  - topic: <u>Paging - non-contiguous allocation and Address Translation</u>
+  - topic: Paging - non-contiguous allocation and Address Translation
     video: https://www.youtube.com/watch?v=4Yqq9TJ320w
     notes: Paging.pdf
     exercises: Exercises-Paging-LA-2-PA-Translation.pdf
     type: 'hw'
-  - topic: <u>Segmentation; Paged segmentation; Multilevel paging</u>
+  - topic: Segmentation; Paged segmentation; Multilevel paging
     video: https://www.youtube.com/watch?v=K3Y3Xxso_Do
     notes: Segmentation-Multilevel-Paging.pdf
     exercises: Exercises-Segmentation-Multilevel-Paging.pdf
     type: 'hw'
-  - topic: <u>Virtual Memory - Demand paging. Virtual to Physical Address Translation</u>
+  - topic: Virtual Memory - Demand paging. Virtual to Physical Address Translation
     video: https://www.youtube.com/watch?v=UVapo4ad9nY
     notes: Virtual-Memory.pdf
     exercises:
     type: ''
-  - topic: <u>Page Replacement Algorithms</u>
+  - topic: Page Replacement Algorithms
     video: https://www.youtube.com/watch?v=CgR_rQ29DW0
     notes: Page-Replacement-Algorithms.pdf
     exercises: Exercises-Page-Replacment.pdf
     type: 'hw'
-  - topic: <u>Process and Threads</u>
+  - topic: Process and Threads
     video: https://www.youtube.com/watch?v=3GH8XJ2D6sU
     notes:
     exercises:
     type: ''
-  - topic: <u>Processor Scheduling Policies</u>
+  - topic: Processor Scheduling Policies
     video: https://www.youtube.com/watch?v=M3yFE4EILGI
     notes: Process-Scheduling.pdf
     exercises: Exercises-CPU-Scheduling.pdf
     type: 'hw'
-  - topic: <u>Virtual Round Robin, Multilevel Feedback Queues</u>
+  - topic: Virtual Round Robin, Multilevel Feedback Queues
     video: https://www.youtube.com/watch?v=-gPM5R1NA9A
     notes: 
     exercises:
     type: ''
-  - topic:<u>Process coordination - Critical Section Problem - Software Solution</u>
+  - topic: Process coordination - Critical Section Problem - Software Solution
     video: https://www.youtube.com/watch?v=EtRSkHNn0OI
     notes:
     exercises: Exercises-C.S-Problem-Software-Solution.pdf
     type: 'hw'
-  - topic:<u>Hardware based Solutions of Critical Section Problem</u>
+  - topic: Hardware based Solutions of Critical Section Problem
     video: https://www.youtube.com/watch?v=UtB2Stf2Vg8
     notes: Process-Coordination-C.S-Problem-soft-hardware-solution.pdf
     exercises:
     type: ''
-  - topic: <u>Semaphores for Mutual Exclusion & Synchronization - N-Process Mutual Excluion</u>
+  - topic: Semaphores for Mutual Exclusion & Synchronization - N-Process Mutual Excluion<
     video: https://www.youtube.com/watch?v=Yr-hHggVXHw
     notes: Semaphores-Critical-Section-and-Producer-Consumer-Problem.pdf
     exercises: Exercises-Semaphores-for-Process-Coordination.pdf
     type: 'hw'
-  - topic: <u>Use of Semaphores for Producer-Consumer Problem</u>
+  - topic: Use of Semaphores for Producer-Consumer Problem
     video: https://www.youtube.com/watch?v=NgbIbYa6Jq0
     notes:
     exercises:
     type: ''
-  - topic: <u>Use of Semaphores for Reader/Writer Problems - Reader's Priority</u>
+  - topic: Use of Semaphores for Reader/Writer Problems - Reader's Priority
     video: https://www.youtube.com/watch?v=Vbznr1Jp8JY
     notes:
     exercises:
     type: ''
-  - topic: </u>Use of Semaphores for Reader/Writer Problems - Writer's Priority</u>
+  - topic: Use of Semaphores for Reader/Writer Problems - Writer's Priority
     video: https://www.youtube.com/watch?v=XO3w-WJ423c
     notes: Semaphores-Reader-Writer-Problem.pdf
     exercises:
     type: ''
-  - topic: <u>Use of Semaphores for Dining-Philosophers-Problem</u>
+  - topic: Use of Semaphores for Dining-Philosophers-Problem
     video: https://www.youtube.com/watch?v=0XvbFgXkJo8
     notes: Semaphores-Dining-Philosophers-Problem.pdf
     exercises:
     type: ''
-  - topic: <u>Inter-Process Communication - Message Passing to solve Synchronization Issues</u>
+  - topic: Inter-Process Communication - Message Passing to solve Synchronization Issues
     video: https://www.youtube.com/watch?v=VQvd68ao3aQ
     notes: IPC-Msg-Passing.pdf
     exercises:
     type: ''
-  - topic: <u>Deadlocks Conditions - Prevention and Avoidance</u>
+  - topic: Deadlocks Conditions - Prevention and Avoidance
     video: https://www.youtube.com/watch?v=RiCn32hcgz4
     notes: Deadlocks.pdf
     exercises:
     type: ''
-  - topic: <u>Deadlocks - Illustartion of Avoidance and Detection Algorithms and Recovery</u>
+  - topic: Deadlocks - Illustartion of Avoidance and Detection Algorithms and Recovery
     video: https://www.youtube.com/watch?v=TfTKOZ2JZZI
     notes:
     exercises:
     type: ''
-  - topic: <u>Information-Storage-Management-Disk Scheduling</u>
+  - topic: Information-Storage-Management-Disk Scheduling
     video: https://www.youtube.com/watch?v=02SpQKrsJCE
     notes: Info-Storage-Mngmnt-Disk-Scheduling.pdf
     exercises:
     type: ''
-  - topic: <u>File System - File Organization, Access Methods, Disk Space Allocation</u>
+  - topic: File System - File Organization, Access Methods, Disk Space Allocation
     video: https://www.youtube.com/watch?v=mSPTZiI1CCY
     notes: File-System.pdf
     exercises:
     type: ''
-  - topic: <u>File System - Functions, Implementation, Protection</u>
+  - topic: File System - Functions, Implementation, Protection
     video: https://www.youtube.com/watch?v=t9LjStuwM5s
     notes:
     exercises:
