@@ -26,7 +26,7 @@ sno: [
 ]
 
 lectures:
-  - topic: <u>Operating System - An overview. Operating System types with historical perspective</u> 
+  - topic: Operating System - An overview. Operating System types with historical perspective
     video: https://www.youtube.com/watch?v=v0KIc74TrlQ
     notes: OS-Overview.pdf
     exercises:
