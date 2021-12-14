@@ -45,12 +45,12 @@ lectures:
     notes: Memory-Management-Static-Dynamic-Partitions.pdf
     exercises: Exercises-Memory-Management-Static-Dynamic-Partitions.pdf
     type: 'hw'
-  - topic: </u>Paging - non-contiguous allocation and Address Translation</u>
+  - topic: <u>Paging - non-contiguous allocation and Address Translation</u>
     video: https://www.youtube.com/watch?v=4Yqq9TJ320w
     notes: Paging.pdf
     exercises: Exercises-Paging-LA-2-PA-Translation.pdf
     type: 'hw'
-  - topic: </u>Segmentation; Paged segmentation; Multilevel paging</u>
+  - topic: <u>Segmentation; Paged segmentation; Multilevel paging</u>
     video: https://www.youtube.com/watch?v=K3Y3Xxso_Do
     notes: Segmentation-Multilevel-Paging.pdf
     exercises: Exercises-Segmentation-Multilevel-Paging.pdf
