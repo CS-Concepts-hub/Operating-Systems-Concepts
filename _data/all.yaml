@@ -90,7 +90,7 @@ lectures:
     notes: Process-Coordination-C.S-Problem-soft-hardware-solution.pdf
     exercises:
     type: ''
-  - topic: Semaphores for Mutual Exclusion & Synchronization - N-Process Mutual Excluion<
+  - topic: Semaphores for Mutual Exclusion & Synchronization - N-Process Mutual Excluion
     video: https://www.youtube.com/watch?v=Yr-hHggVXHw
     notes: Semaphores-Critical-Section-and-Producer-Consumer-Problem.pdf
     exercises: Exercises-Semaphores-for-Process-Coordination.pdf
