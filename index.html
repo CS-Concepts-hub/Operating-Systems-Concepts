@@ -19,7 +19,7 @@ weight: 0
 		</p>
 		<hr>
 		<p class="center">
-			[<a href="#lectures">Lectures</a>]&nbsp;&nbsp;[<a href="#Iqra-Univ-Lectures">Iqra-Univ-Weekly-Lectures</a>]&nbsp;&nbsp;[<a href="#notes">Lecture Notes</a>]&nbsp;&nbsp;[<a href="#exercises">Exercises</a>]
+			[<a href="#lectures">Lectures</a>]&nbsp;&nbsp;[<a href="#notes">Lecture Notes</a>]&nbsp;&nbsp;[<a href="#exercises">Exercises</a>]
 		<hr>
 		<p>
 			BS level course: topical lectures (video Urdu/Englsih), exercises(English) and lecture notes(Englih). Better to first read notes of a lecture and then view lecture.
@@ -36,15 +36,6 @@ weight: 0
 			{% for lecture in site.data.all.lectures %}
 			{% if lecture.video %} 
 			<li><a href="{{lecture.video}}" target="youtube">{{lecture.topic}}</a></li>
-			{% endif %} 
-			{% endfor %}
-		</ol>
-		<hr>
-		<h3 class="title" id="Iqra-Univ-Lectures">Iqra-Univ-Weekly-Lectures</h3>
-		<ol>
-			{% for lecture in site.data.all.lectures %}
-			{% if lecture.notes %} 
-			<li><a href="files/{{lecture.notes}}">{{lecture.topic | default: ""}}</a></li>
 			{% endif %} 
 			{% endfor %}
 		</ol>
