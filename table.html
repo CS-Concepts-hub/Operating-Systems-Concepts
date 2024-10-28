@@ -13,10 +13,12 @@
 					{% if lecture.video %} 
 					<a href="{{lecture.video}}" target="youtube">Video</a>
 					{% endif %} 
+					{% if Iqra-Univ-Weekly-Lectures%} 
+					 | <a href="files/{{Iqra-Univ-Weekly-Lectures.notes}}">Slides</a>
+					{% endif %} 
 					{% if lecture.notes %} 
 					 | <a href="files/{{lecture.notes}}">Notes</a>
-					{% endif %} 
-					{% if lecture.exercises %} 
+					{% endif %} {% if lecture.exercises %} 
 					 | <a href="files/{{lecture.exercises}}">Exercise</a>
 					{% endif %} 
 					
